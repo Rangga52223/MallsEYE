@@ -94,7 +94,7 @@ scaled_features = scaler.transform(extracted_data)
 
 # Load model AI
 try:
-    model = tf.keras.models.load_model("model.h5")
+    model = tf.keras.models.load_model("Ellay.h5")
 except OSError:
     print("Error: Model .h5 tidak ditemukan! Pastikan model tersedia di direktori yang benar.")
     exit()
